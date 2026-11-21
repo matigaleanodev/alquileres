@@ -1,27 +1,31 @@
 # Alquileres
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+[Español](README.es.md)
 
-## Development server
+Deprecated lodging-catalog prototype, replaced by Modo Playa. Preserved as a reference for the original Angular UI.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Stack
 
-## Code scaffolding
+Angular · TypeScript · SCSS.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Scope and configuration
 
-## Build
+Contains catalog UI components such as property cards, header and sidebar. This repository does not implement the current Modo Playa platform contracts.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Local development
 
-## Running unit tests
+Use a Node.js toolchain compatible with package.json and the dependency lockfile, when present.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm install
+npm start
+npm run build
+npm test
+```
 
-## Running end-to-end tests
+## Related repositories
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Modo Playa App](https://github.com/matigaleanodev/modo-playa-app)
+- [Modo Playa Admin](https://github.com/matigaleanodev/modo-playa-admin)
+- [Modo Playa API](https://github.com/matigaleanodev/modo-playa-api)
+- [Modo Playa API Cloud](https://github.com/matigaleanodev/modo-playa-api-cloud)
